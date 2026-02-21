@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* header styling */
+header {
+    background-color: #222;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #4a90d9;
+}
+
+section {
+    padding: 50px 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+/* about me section */
+.about-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid #4a90d9;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.skills {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.skills span {
+    background-color: #4a90d9;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+/* projects */
+#projects {
+    background-color: #f5f5f5;
+    max-width: 100%;
+    padding: 50px 30px;
+}
+
+.project-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: white;
+    width: 280px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.project-card img {
+    width: 100%;
+}
+
+.project-card h3 {
+    padding: 10px 15px 5px;
+}
+
+.project-card p {
+    padding: 0 15px 15px;
+    color: #666;
+    font-size: 14px;
+}
+
+/* resume section */
+#resume {
+    text-align: center;
+}
+
+#resume p {
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4a90d9;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #357abd;
+}
+
+/* contact */
+#contact {
+    background-color: #f5f5f5;
+    max-width: 100%;
+    text-align: center;
+    padding: 50px 30px;
+}
+
+#contact p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#contact a {
+    color: #4a90d9;
+}
+
+footer {
+    background-color: #222;
+    color: #aaa;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
