@@ -14,8 +14,6 @@ Folder: Task2-LandingPage/
 A calculator that can do addition, subtraction, multiplication and division. Made with HTML, CSS and JavaScript.
 Folder: Task3-Calculator/
 
-## How to open
-Just open the index.html file in any browser.
 
 ## Made by
 Vaibhav Mishra
